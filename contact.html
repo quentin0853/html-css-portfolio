@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap"
           rel="stylesheet">
 </head>
-<body id="home">
+<body id="contact">
     <header>
         <a href="index.html">
             <img src="images/logo.png" alt="Morgan Dawkins - Freelance Photograph">
@@ -15,12 +15,12 @@
     </header>
     <main>
         <div id="hero">
-            <h1>I love photography</h1>
+            <h1>Contact me</h1>
         </div>
         <div class="container">
             <div class="row">
                 <div id="content" class="column half">
-                    <h2 class="content-head">Lorem ipsum dolor sit amet</h2>
+                    <h2 class="content-head">Pellentesque habitant morbi</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
@@ -37,32 +37,27 @@
                     </p>
                 </div><!-- end first column -->
                 <div class="column half">
-                    <p class="content-head pictures">
-                        <a href="gallery.html" title="See all pictures">
-                            See all pictures
-                        </a>
-                    </p>
-                    <div id="pictures">
-                        <a href="#" title="Picture 1">
-                            <img src="images/home-picture-1.jpg" alt="Picture 1">
-                        </a>
-                        <a href="#" title="Picture 2">
-                            <img src="images/home-picture-2.jpg" alt="Picture 2">
-                        </a>
-                        <a href="#" title="Picture 3">
-                            <img src="images/home-picture-3.jpg" alt="Picture 3">
-                        </a>
-                        <a href="#" title="Picture 4">
-                            <img src="images/home-picture-4.jpg" alt="Picture 4">
-                        </a>
-                    </div>
+                    <form action="contact.html">
+                        <p>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Your email address">
+                        </p>
+                        <p>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message" rows="8"></textarea>
+                        </p>
+                        <p>
+                            <button type="submit" class="button">
+                                Send
+                            </button>
+                        </p>
+                    </form>
                 </div><!-- end second column -->
             </div><!-- end row -->
-            <p id="home-contact">
-                <a class="button" href="contact.html" title="Formulaire de contact">
-                    Contact me
-                </a>
-            </p>
         </div>
     </main>
     <footer>
