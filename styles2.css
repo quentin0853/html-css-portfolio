@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header #logopageacceuil
+{
+    width: 502px;
+    height: 135px;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    /* ajout lien clickable page acceuil*/
+}
+
+/* Le hero*/
+#hero
+{
+    background-image: url("images/hero.png");
+    display: block;
+    margin: auto;
+    height: 70px;
+    background-position: center;
+    background-size: cover ; 
+}
+div>h1
+{
+    color:white;
+    font-family: 'Playfair Display', serif ;
+    font-size: 32px;
+    text-align: center; 
+    line-height: 70px;  
+    font-weight: normal;
+}
+
+/*Gestion gallery photo*/
+
+main div a
+{
+    float:left;
+    width: 310px;
+    height: 199px;
+    display : block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+main 
+{
+    margin:auto;
+    width: 990px;
+    margin-top: 50px;
+}
+main>div /*Ajout padding negatif gauche droite bas au parent*/
+{
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+.clear
+{
+    clear:left;
+}
+
+main>div a
+{
+    color: black;
+    font-weight:normal;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Bas de page*/
+footer
+{
+    background-color: black;
+    height: 167px;
+}
+footer ul
+{
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-bottom: 70px;
+    padding: 0px;
+    display: inline-block;
+}
+footer li
+{
+    list-style-type: none;
+    float: left;
+}
+footer li a
+{
+    color:white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif ;
+    font-size: 16px;
+}
+footer li:nth-child(2)
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer div
+{
+    width:990px;
+    margin:auto;
+}
+footer img
+{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+}

@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header #logopageacceuil
+{
+    width: 502px;
+    height: 135px;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    /* ajout lien clickable page acceuil*/
+}
+#hero
+{
+    background-image: url("images/hero.png");
+    display: block;
+    margin: auto;
+    height: 70px;
+    background-position: center;
+    background-size: cover ;
+    margin-bottom: 50px; 
+}
+div>h1
+{
+    color:white;
+    font-family: 'Playfair Display', serif ;
+    font-size: 32px;
+    text-align: center; 
+    line-height: 70px;  
+    font-weight: normal;
+}
+
+/*Para de gauche*/
+main
+{
+    width: 990px;
+    margin: auto;
+    display: flex;
+}
+main div
+{
+    width: 480px;
+}
+main>div
+{
+    margin-left:30px;
+}
+main div h3
+{
+    font-family: 'Playfair Display', serif ;
+    font-size: 30px;
+    font-weight: normal;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+main div p
+{
+    font-family: 'Open sans', serif ;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+main div>p
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*Formulaire de droite*/
+input
+{
+    width: 100%;
+    line-height: 24px;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+}
+textarea
+{
+    height: 300px;
+    width: 100%;
+    resize: none;
+    padding: 10px 12px;
+}
+label
+{
+    font-family: 'Open sans', serif ;
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+}
+
+input, textarea
+{
+    font-family: 'Open sans', serif ;
+}
+
+main div button /* Config du button*/
+{
+    font-family: 'Playfair Display', serif ;
+    font-size : 24px;
+    font-weight: normal;
+    color: white;
+    background-color: black;
+    padding: 20px 20px;
+    border: none;
+    line-height: 20px;
+    margin-bottom: 80px;
+    margin-top: 16px;
+}
+form
+{
+    margin: 0px;
+}
+
+/* Bas de page*/
+footer
+{
+    background-color: black;
+    height: 167px;
+}
+footer ul
+{
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-bottom: 70px;
+    padding: 0px;
+    display: inline-block;
+}
+footer li
+{
+    list-style-type: none;
+    float: left;
+}
+footer li a
+{
+    color:white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif ;
+    font-size: 16px;
+}
+footer li:nth-child(2)
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer div
+{
+    width:990px;
+    margin:auto;
+}
+footer img
+{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+}

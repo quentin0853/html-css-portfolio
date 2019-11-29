@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header #logopageacceuil
+{
+    width: 502px;
+    height: 135px;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    /* ajout lien clickable page acceuil*/
+}
+
+#hero
+{
+    background-image: url("images/hero.png");
+    display: block;
+    margin: auto;
+    height: 400px;
+    background-position: center;
+    background-size: cover ; 
+}
+div>h1
+{
+    color:white;
+    font-family: 'Playfair Display', serif ;
+    font-size: 60px;
+    /*font-family: 'Open Sans', sans-serif;*/
+    text-align: center; 
+    line-height: 400px;  
+    font-weight: normal;
+}
+main
+{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    width: 990px;
+}
+main div
+{
+    width: 480px;
+    display: inline-block;
+}
+
+/*Gestion 1er bloc gauche*/
+main div:first-child
+{
+    margin-right: 30px;
+}
+
+main>div>h3
+{
+    font-family: 'Playfair Display', serif ;
+    font-size : 30px;
+    height: 30px;
+    margin-top: 50px ;
+    margin-bottom: 30px;
+    font-weight:normal;
+}
+main>div p
+{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin:0px;
+    line-height: 22px;
+}
+main>div>p:nth-child(2)
+{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/*Gestion 2eme bloc droite*/
+main div h5
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif ;
+    font-size: 18px;
+}
+main div h5{text-align: right;}
+main div h5 a
+{
+    color: black;
+    font-weight:normal;
+}
+main div img
+{
+    width:225px;
+    height: 149px;
+    float: left;
+}
+main div img:nth-child(odd)
+{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+/* Le Contact me*/
+#submain 
+{
+    margin: auto;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 80px;
+}
+#submain a
+{
+    background-color: black;
+    padding: 20px;
+    font-family: 'Playfair Display', serif ;
+    text-decoration: none;
+    color: white;
+}
+
+/* Bas de page*/
+footer
+{
+    background-color: black;
+    height: 167px;
+}
+footer ul
+{
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-bottom: 70px;
+    padding: 0px;
+    display: inline-block;
+}
+footer li
+{
+    list-style-type: none;
+    float: left;
+}
+footer li a
+{
+    color:white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif ;
+    font-size: 16px;
+}
+footer li:nth-child(2)
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer div
+{
+    width:990px;
+    margin:auto;
+}
+footer img
+{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+}
